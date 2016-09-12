@@ -1,0 +1,26 @@
+---
+output: github_document
+---
+
+# Aide: Giving a helping hand
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+Contains simple functions commonly used in data analysis. For instance, for average and median
+
+```{r}
+library(aide)
+ave(1:10)
+typeof(ave(1:10))
+med(1:10)
+typeof(med(1:10))
+```
+
