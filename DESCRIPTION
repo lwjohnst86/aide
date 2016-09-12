@@ -1,7 +1,7 @@
 Package: aide
 Type: Package
 Title: Aiding With Common And Simple Utility Functions
-Version: 0.1.0
+Version: 0.1.0.9000
 Authors@R: person("Luke", "Johnston", email = "lwjohnst@gmail.com",
     role = c("aut", "cre"))
 Description: Simple package that contains commonly used and relatively simple
@@ -10,8 +10,13 @@ Description: Simple package that contains commonly used and relatively simple
     if it is an integer (no decimals).
 License: MIT + file LICENSE
 LazyData: TRUE
-Suggests: knitr,
-    rmarkdown
+Suggests:
+    knitr,
+    rmarkdown,
+    testthat
 VignetteBuilder: knitr
 URL: https://github.com/lwjohnst86/aide
 BugReports: https://github.com/lwjohnst86/aide/issues
+Imports:
+    stats
+RoxygenNote: 5.0.1
