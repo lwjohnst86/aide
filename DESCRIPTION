@@ -1,0 +1,17 @@
+Package: aide
+Type: Package
+Title: Aiding With Common And Simple Utility Functions
+Version: 0.1.0
+Authors@R: person("Luke", "Johnston", email = "lwjohnst@gmail.com",
+    role = c("aut", "cre"))
+Description: Simple package that contains commonly used and relatively simple
+    utility functions that are for data analysis. For instance, a function to
+    generate the mean with a strict adherence to number of digits including
+    if it is an integer (no decimals).
+License: MIT + file LICENSE
+LazyData: TRUE
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
+URL: https://github.com/lwjohnst86/aide
+BugReports: https://github.com/lwjohnst86/aide/issues
