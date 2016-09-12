@@ -7,10 +7,10 @@ Contains simple functions commonly used in data analysis. For instance, for aver
 
 ``` r
 library(aide)
-ave(1:10)
-#>  [1] 5.5 5.5 5.5 5.5 5.5 5.5 5.5 5.5 5.5 5.5
-typeof(ave(1:10))
-#> [1] "double"
+average(1:10)
+#> [1] "5.5"
+typeof(average(1:10))
+#> [1] "character"
 med(1:10)
 #> [1] "5.5"
 typeof(med(1:10))

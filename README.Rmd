@@ -18,8 +18,8 @@ Contains simple functions commonly used in data analysis. For instance, for aver
 
 ```{r}
 library(aide)
-ave(1:10)
-typeof(ave(1:10))
+average(1:10)
+typeof(average(1:10))
 med(1:10)
 typeof(med(1:10))
 ```
