@@ -1,7 +1,7 @@
 Package: aide
 Type: Package
 Title: Aiding With Common And Simple Utility Functions
-Version: 0.1.0.9000
+Version: 0.1.1.9000
 Authors@R: person("Luke", "Johnston", email = "lwjohnst@gmail.com",
     role = c("aut", "cre"))
 Description: Simple package that contains commonly used and relatively simple
