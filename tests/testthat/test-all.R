@@ -3,6 +3,9 @@ context("Functions work")
 ## TODO: Add more tests
 
 test_that("basic stats work", {
+    expect_identical(min_max(1:10), "1.0 to 10.0")
+    expect_identical(min_max(1:10, digits = 2), "1.00 to 10.00")
+
     expect_identical(average(1:10), "5.5")
     expect_identical(average(1:10, digits = 2), "5.50")
 
