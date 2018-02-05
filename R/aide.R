@@ -67,12 +67,6 @@ tertile <- function(x) {
 
 #' @rdname aide
 #' @export
-trim_ws <- function (x) {
-    gsub("^\\s+|\\s+$", "", x)
-}
-
-#' @rdname aide
-#' @export
 min_max <- function(x, digits = 1) {
     minimum <- format_round(min(x, na.rm = TRUE), digits)
     maximum <- format_round(max(x, na.rm = TRUE), digits)
@@ -80,6 +74,14 @@ min_max <- function(x, digits = 1) {
 
 }
 
+#' @rdname aide
+#' @export
 format_round <- function(x, digits = 1) {
-    format(round(x, digits = digits), nsmall = digits)
+    trimws(format(round(x, digits = digits), nsmall = digits))
+}
+
+#' @rdname aide
+#' @export
+format_pval <- function(x, digits = 3) {
+   format.pval(x, digits = digits, eps = 0.001)
 }

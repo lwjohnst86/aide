@@ -2,16 +2,17 @@
 % Please edit documentation in R/aide.R
 \name{aide}
 \alias{aide}
-\alias{ave_sd}
-\alias{average}
-\alias{correlate}
-\alias{iqr}
 \alias{med}
+\alias{iqr}
+\alias{correlate}
 \alias{med_iqr}
-\alias{min_max}
+\alias{average}
 \alias{stddev}
+\alias{ave_sd}
 \alias{tertile}
-\alias{trim_ws}
+\alias{min_max}
+\alias{format_round}
+\alias{format_pval}
 \title{aide, small and simple functions to help out.}
 \usage{
 med(x, digits = 1)
@@ -30,9 +31,11 @@ ave_sd(x, digits = 1)
 
 tertile(x)
 
-trim_ws(x)
-
 min_max(x, digits = 1)
+
+format_round(x, digits = 1)
+
+format_pval(x, digits = 3)
 }
 \arguments{
 \item{x}{Vector of values.}
@@ -55,4 +58,3 @@ min_max(x, digits = 1)
 \description{
 Simple utility functions that help with data analysis.
 }
-

@@ -19,4 +19,4 @@ URL: https://github.com/lwjohnst86/aide
 BugReports: https://github.com/lwjohnst86/aide/issues
 Imports:
     stats
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1
